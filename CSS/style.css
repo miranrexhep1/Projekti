@@ -1,3 +1,18 @@
-#welcome{
-    
-}
+#logo_text h1 a .logo_colour { 
+    color: #1c4905;
+  }
+
+
+  #logo_text h1, #logo_text h1 a, #logo_text h1 a:hover { 
+    padding: 0;
+    color: #FFF;
+    text-decoration: none;
+    text-shadow: 1px 1px #000;  
+  }
+  
+
+  #logo_text h2 { 
+    font-size: 140%;
+    padding: 0 0 0 0;
+    color: #FFF;
+  }
