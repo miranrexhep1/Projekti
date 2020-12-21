@@ -9,6 +9,12 @@
     text-decoration: none;
     text-shadow: 1px 1px #000;  
   }
+  header{
+    width: 940px;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    padding: 10px 0 15px 0; 
+  }
   
 
   #logo_text h2 { 
@@ -16,7 +22,6 @@
     padding: 0 0 0 0;
     color: #FFF;
   }
-<<<<<<< Updated upstream
   .menu{
     display: inline;  
     list-style-type: none;
@@ -58,16 +63,34 @@
   .menu .dropdown:hover .dropdown-content {
     display: block;
   }
-=======
 
-  #main, nav, #container, #logo, #site_content, footer, header { 
-    margin-left: auto; 
-    margin-right: auto;
-  }
   #site_content { 
     width: 940px;
     overflow: hidden;
     margin: 0 auto 0 auto;
     padding: 10px 0 15px 0;  
   } 
->>>>>>> Stashed changes
+  .content { 
+    text-align: left;
+    width: 670px;
+    float: right;
+    font-size: 120%;
+  }
+
+  .content h1 { 
+    padding: 0 15px 20px 0;
+    font: 200% 'News Cycle', arial, sans-serif;
+    text-shadow:  #FFF 1px 1px;
+    margin: 0 1px;
+    color: #000;
+  }
+
+  
+.content ul li { 
+  list-style-type: none;
+  background: url(../images/bullet.png) no-repeat;
+  margin: 0 0 0 0; 
+  padding: 0 0 4px 28px;
+  line-height: 1.5em;
+}
+  
