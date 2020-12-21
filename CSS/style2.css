@@ -1,7 +1,11 @@
 #logo_text h1 a .logo_colour { 
     color: #1c4905;
   }
-
+  .main{
+    width: 70%;
+    margin: 0 auto;
+    
+}
 
   #logo_text h1, #logo_text h1 a, #logo_text h1 a:hover { 
     padding: 0;
