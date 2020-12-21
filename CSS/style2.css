@@ -9,18 +9,17 @@
     text-decoration: none;
     text-shadow: 1px 1px #000;  
   }
-  
-
   #logo_text h2 { 
     font-size: 140%;
     padding: 0 0 0 0;
     color: #FFF;
   }
   .menu{
-    display: inline;  
+    display: block;  
     list-style-type: none;
+    width: 90%;
     padding: 5px;
-    margin: 0;
+    margin: auto;
     justify-content: space-between;
   }
   .menu ul{
@@ -44,6 +43,7 @@
     background-color: rgba(255, 60, 0, 0.774);
   }
   .menu li.dropdown{
+    position: relative;
     display: inline-block;
   }
   .menu .dropdown-content {
@@ -54,6 +54,11 @@
     z-index: 1;
   }
   .menu .dropdown-content a:hover {background-color: #c9dd10fa;}
-  .menu .dropdown:hover .dropdown-content {
+  .menu .dropdown:hover .dropdown-content { 
     display: block;
+  }
+  #headi{
+    margin: auto;
+    width: 60%;
+    padding: 10 px;
   }
