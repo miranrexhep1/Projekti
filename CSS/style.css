@@ -1,68 +1,73 @@
 #logo_text h1 a .logo_colour { 
-    color: #1c4905;
-  }
+  color: #1c4905;
+}
 
-
-  #logo_text h1, #logo_text h1 a, #logo_text h1 a:hover { 
-    padding: 0;
-    color: #FFF;
-    text-decoration: none;
-    text-shadow: 1px 1px #000;  
-  }
-  header{
-    width: 940px;
-    overflow: hidden;
-    margin: 0 auto 0 auto;
-    padding: 10px 0 15px 0; 
-  }
+.main{
+  width: 70%;
+  margin: 0 auto;
   
+}
 
-  #logo_text h2 { 
-    font-size: 140%;
-    padding: 0 0 0 0;
-    color: #FFF;
-  }
-  .menu{
-    display: inline;  
-    list-style-type: none;
-    padding: 5px;
-    margin: 0;
-    justify-content: space-between;
-  }
-  .menu ul{
-    list-style-type: none;
-    margin:0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #1c4905;
-  }
-  .menu li{
-    float: left;
-  }
-  .menu li a, .dropbtn{
-    display: inline-block;
-    color:white;
-    text-align: center;
-    padding: 14px 16px;
-  }
-  .menu li a:hover, .dropdown:hover .dropbtn{
-    background-color: rgba(255, 60, 0, 0.774);
-  }
-  .menu li.dropdown{
-    display: inline-block;
-  }
-  .menu .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  .menu .dropdown-content a:hover {background-color: #c9dd10fa;}
-  .menu .dropdown:hover .dropdown-content {
-    display: block;
-  }
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover { 
+  padding: 0;
+  color: #FFF;
+  text-decoration: none;
+  text-shadow: 1px 1px #000;  
+}
+#logo_text h2 { 
+  font-size: 140%;
+  padding: 0 0 0 0;
+  color: #FFF;
+}
+.menu{
+  display: block;  
+  list-style-type: none;
+  width: 90%;
+  padding: 5px;
+  margin: auto;
+  justify-content: space-between;
+}
+.menu ul{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1c4905;
+}
+.menu li{
+  float: left;
+  background-color: #1c4905;
+}
+.menu li a, .dropbtn{
+  display: inline-block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+}
+.menu li a:hover, .dropdown:hover .dropbtn{
+  background-color: rgba(255, 60, 0, 0.774);
+}
+.menu li.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.menu .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #051a92;
+  min-width: 160px;
+  z-index: 1;
+}
+.menu .dropdown-content a:hover {background-color: #c9dd10fa;}
+.menu .dropdown:hover .dropdown-content { 
+  display: block;
+}
+#headi{
+  margin: auto;
+  width: 60%;
+  padding: 10 px;
+}
 
   #site_content { 
     width: 940px;
