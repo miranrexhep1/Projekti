@@ -7,7 +7,7 @@
     .faqja-login{
         width: 360px;
         padding: 7% 0 0;
-        margin: auto;
+        margin:10px auto 0px;
     }
     .form{
         position: relative;
@@ -48,10 +48,12 @@
     .form .message a{
         text-decoration: none;
     }
-    .form .form-regjistrimi{
+    .form-regjistrimi{
+        margin:10px auto 0px;
         display:none;
     }
-
+  
+    
     
    
 
