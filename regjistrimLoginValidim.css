@@ -1,0 +1,54 @@
+
+    body{
+        height:100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .faqja-login{
+        width: 360px;
+        padding: 7% 0 0;
+        margin:10px auto 0px;
+    }
+    .form{
+        position: relative;
+        z-index: 1;
+        max-width: 360px;
+        margin : 0 auto 100px;
+        padding: 45px;
+        text-align: center;
+        background: #f2f2f2;  
+    }
+    .form input {
+        font-family: 'Times New Roman';
+        outline: 1;
+        background: #FFFFFF;
+        width: 100%;
+        border: 0;
+        margin: 0 0 10px;
+        padding: 5%;
+        box-sizing: border-box;      
+    }
+    .form button{
+            font-family:sans-serif;
+            text-transform: uppercase;
+            outline: 0;
+            background: #FFFFFF;
+            width: 100%;
+            border: 0;
+            padding: 15px;
+            cursor: pointer;
+    }
+    .form button:hover , .form button:active{
+        background: #43A047;
+    }
+    .form .message{
+        margin: 15px 0 0;
+        font-size: 16px;
+    }
+    .form .message a{
+        text-decoration: none;
+    }
+    .form-regjistrimi{
+        margin:10px auto 0px;
+        display:none;
+    }
