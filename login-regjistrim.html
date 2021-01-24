@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="loginregjistrimvalidim.css">    
+    </head>
+    <body>       
+        
+<div class="faqja-login">
+    <br>
+<div class="form">
+    <form class="form-regjistrimi" name="regjistrim" method="POST" onsubmit="regjistrimi()">
+    <input type="text" placeholder="emri" id="emri" />
+    <input type="text" placeholder="password" id="password" />
+    <input type="email" placeholder="email" id="email" />
+    <button type="submit" id="krijo">Krijo accountin</button>
+    <p class="message">Keni account?<a href="#">Login</a></p>
+
+    </form>
+
+    <form class="form-login" name="logini" method="POST" onsubmit="login()">
+        <input type="text" placeholder="emri" id="emrii"/>
+        <input type="text" placeholder="passwordi" id="fjalkalimi"/>
+        <button type="submit">Login</button>
+        <p class="message">Sje regjistruar?<a href="#"> Register </a></p>
+
+    </form>
+    
+</div>
+</div>
+<script src="validim.js"></script>
+</body>
+</html>
